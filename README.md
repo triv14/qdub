@@ -1,5 +1,5 @@
 # Q'ed Up
-### What is Q'ed Up?
+## What is Q'ed Up?
 A priority queueing web application made by UW students in CSE 403 with the ambition to make office hours more systematic & straightforward.
 #### Goals of this project:
 - Have a working priority queue that supports necessary queue functionality
@@ -8,7 +8,7 @@ A priority queueing web application made by UW students in CSE 403 with the ambi
 - Differentiate between students and faculty in order to show the corresponding UI & give correct permissions
   - for example: UI for faculty will have functionality to see the queue, manually edit the queue & broadcast messages to everyone on the queue. Student UI will not be able to see the queue but see a time estimation.
 
-### Notes for Devs
+## Notes for Devs
 ### To run the backend & frontend in brower:
 ##### backend
 - in root directory
@@ -18,7 +18,7 @@ A priority queueing web application made by UW students in CSE 403 with the ambi
 - in `client` directory
 - (first time) run `npm install`
 - run `npm start`
-
+---
 ### To use Postgres database (spoiler - we're using docker):
 1. spin up docker (download if necessary) https://www.docker.com/products/docker-desktop/ 
 
@@ -30,7 +30,7 @@ Execute the following commands in your local terminal:
 
 
 To test if it works:
-1. Uncomment lines 18-28 in pgConfigs.js 
+1. Uncomment lines 18-28 in server/configs/pgConfigs.js
 2. Run `node server/configs/pgConfigs.js`
 Your terminal should log something like:
 ``` Result {
